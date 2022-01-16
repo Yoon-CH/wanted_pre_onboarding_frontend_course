@@ -6,8 +6,7 @@ const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
-  /* font-family: 'icomoon' !important; */
-  min-width: 990px;
+  max-width: 990px;
 `;
 
 export default GlobalStyle;
