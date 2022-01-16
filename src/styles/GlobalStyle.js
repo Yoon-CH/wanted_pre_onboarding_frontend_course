@@ -6,7 +6,6 @@ const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
-  max-width: 990px;
 `;
 
 export default GlobalStyle;
