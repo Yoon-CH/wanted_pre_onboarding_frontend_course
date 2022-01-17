@@ -54,17 +54,19 @@ export default Nav;
 const RightNavBar = styled.ul`
   display: flex;
   align-items: center;
-  @media only screen and (max-width: 990px) {
+  @media only screen and (max-width: 1000px) {
     display: flex;
   }
 `;
 
 const DotIcon = styled(DotsThreeHorizontal)`
   display: none;
-  @media only screen and (max-width: 990px) {
+  @media only screen and (max-width: 1000px) {
     display: block;
+    margin-bottom: 5px;
     color: #333333;
-    width: 14px;
+    width: 15px;
+    cursor: pointer;
   }
 `;
 
@@ -73,7 +75,8 @@ const Profile = styled.img`
   width: 32px;
   border-radius: 50%;
   border: solid 1px #e1e2e3;
-  @media only screen and (max-width: 990px) {
+  cursor: pointer;
+  @media only screen and (max-width: 1000px) {
     display: none;
   }
 `;
@@ -82,7 +85,7 @@ const Line = styled.div`
   margin: 0 20px;
   height: 10px;
   border-left: solid 1px #e1e2e3;
-  @media only screen and (max-width: 990px) {
+  @media only screen and (max-width: 1000px) {
     display: none;
   }
 `;
@@ -93,14 +96,16 @@ const Service = styled.div`
   border: solid 1px #e1e2e3;
   border-radius: 25px;
   font-size: 12px;
-  @media only screen and (max-width: 990px) {
+  cursor: pointer;
+  @media only screen and (max-width: 1000px) {
     display: none;
   }
 `;
 
 const Icon = styled.li`
   margin-right: 17px;
-  @media only screen and (max-width: 990px) {
+  cursor: pointer;
+  @media only screen and (max-width: 1000px) {
     margin-right: 12px;
   }
 `;
@@ -110,7 +115,8 @@ const CategoryTagName = styled.li`
   margin: 18px;
   color: #333333;
   font-size: 13px;
-  @media only screen and (max-width: 990px) {
+  cursor: pointer;
+  @media only screen and (max-width: 1000px) {
     margin: 12px;
     margin-bottom: 20px;
   }
@@ -123,7 +129,8 @@ const CategoryName = styled.li`
   margin: 18px;
   color: #333333;
   font-size: 14px;
-  @media only screen and (max-width: 990px) {
+  cursor: pointer;
+  @media only screen and (max-width: 1000px) {
     margin: 12px;
     margin-bottom: 20px;
   }
@@ -140,6 +147,7 @@ const CategoryNameHide = styled.li`
     margin: 12px;
     margin-bottom: 20px;
     font-size: 15px;
+    cursor: pointer;
   }
 `;
 
@@ -147,7 +155,8 @@ const CategoryNameAlways = styled.li`
   margin: 18px;
   color: #333333;
   font-size: 14px;
-  @media only screen and (max-width: 990px) {
+  cursor: pointer;
+  @media only screen and (max-width: 1000px) {
     margin: 12px;
     margin-bottom: 20px;
     font-size: 15px;
@@ -156,7 +165,7 @@ const CategoryNameAlways = styled.li`
 
 const Category = styled.ul`
   display: flex;
-  @media only screen and (max-width: 990px) {
+  @media only screen and (max-width: 1000px) {
     display: flex;
   }
 `;
@@ -165,7 +174,7 @@ const CenterNavBar = styled.div``;
 
 const LeftNavBar = styled.div`
   display: flex;
-  @media only screen and (max-width: 990px) {
+  @media only screen and (max-width: 1000px) {
     padding-top: 20px;
     padding-bottom: 17px;
     padding-right: 100%;
@@ -178,6 +187,7 @@ const Wanted = styled.div`
   font-size: 23px;
   font-weight: bolder;
   text-align: center;
+  cursor: pointer;
 `;
 
 const Logo = styled.img`
@@ -185,6 +195,7 @@ const Logo = styled.img`
   margin: auto;
   width: 17px;
   height: 15px;
+  cursor: pointer;
 `;
 
 const NavBar = styled.div`
@@ -194,7 +205,7 @@ const NavBar = styled.div`
   width: 90%;
   max-width: 1060px;
   margin: 0 auto;
-  @media only screen and (max-width: 990px) {
+  @media only screen and (max-width: 1000px) {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
