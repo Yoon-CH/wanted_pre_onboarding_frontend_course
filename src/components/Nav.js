@@ -122,7 +122,7 @@ const CategoryTagName = styled.li`
 const CategoryName = styled.li`
   margin: 18px;
   color: #333333;
-  font-size: 13px;
+  font-size: 14px;
   @media only screen and (max-width: 990px) {
     margin: 12px;
     margin-bottom: 20px;
@@ -146,7 +146,7 @@ const CategoryNameHide = styled.li`
 const CategoryNameAlways = styled.li`
   margin: 18px;
   color: #333333;
-  font-size: 13px;
+  font-size: 14px;
   @media only screen and (max-width: 990px) {
     margin: 12px;
     margin-bottom: 20px;
@@ -183,8 +183,8 @@ const Wanted = styled.div`
 const Logo = styled.img`
   display: block;
   margin: auto;
-  width: 13px;
-  height: 13px;
+  width: 17px;
+  height: 15px;
 `;
 
 const NavBar = styled.div`
@@ -192,7 +192,7 @@ const NavBar = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 90%;
-  max-width: 1260px;
+  max-width: 1060px;
   margin: 0 auto;
   @media only screen and (max-width: 990px) {
     display: flex;
