@@ -2,13 +2,13 @@ import React from 'react';
 import { IosArrowRight } from '@styled-icons/fluentui-system-regular/IosArrowRight';
 import styled from 'styled-components';
 
-function CarouselCard() {
+function CarouselCard({ cardInfo }) {
   return (
     <MainCard>
-      <FrontImage alt="pre onbording course" src="image/frontend.png" />
+      <FrontImage alt="pre onbording course" src={cardInfo.imageUrl} />
       <DetailCard>
-        <Developer>개발자 되고싶은 분들!?</Developer>
-        <FrontCourse>프론트엔드 무료 교육과정 참여하기</FrontCourse>
+        <Developer>{cardInfo.title}</Developer>
+        <FrontCourse>{cardInfo.detail}</FrontCourse>
         <Line />
         <GoToApply>
           바로가기
@@ -104,7 +104,7 @@ const FrontImage = styled.img`
     width: 87%;
   }
   @media only screen and (max-width: 600px) {
-    width: 87%;
+    width: 85%;
   }
 `;
 
